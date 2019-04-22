@@ -8,7 +8,7 @@ const Boton = (props) => {
       <div>
       <button type="button"
         onClick={props.handleClick}>
-        clic
+        clic soy el boton original
       </button>
       </div>
     </div>
