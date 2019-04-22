@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'; // llamamos a react que es el general
+import ReactDOM from 'react-dom'; // este manipula al DOM y por medio de su metodo puede hacer la interfaz
+import './index.css'; // el estilo el cual esta importado
+import App from './App'; // la apliacion general la cual
 
-ReactDOM.render(<App />, document.getElementById('root'));
+let renderizar = document.getElementById('root');  // donde queremos renderizar nuestro elemento
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+let apliacion = <App/> // lo enlazamos para que sea mas limpia la sintaxis
+
+ReactDOM.render(apliacion, renderizar); // usando el metodo de ReactDOM para poder crear la parte visual
+
+// apliacion es el link que tengo en mi index.html el cual react usa como ID
