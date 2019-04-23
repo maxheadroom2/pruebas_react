@@ -2,9 +2,10 @@ import React from 'react';
 import Header from './header.js';
 
 const Body = (props) => {
+  let {handleClick} = props
   return(
     <div>
-      <Header/>
+      <Header handleClick={handleClick} />
       <div>
         <p>
           Body

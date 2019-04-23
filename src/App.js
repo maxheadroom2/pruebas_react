@@ -20,7 +20,7 @@ class App extends Component {
         <Body
           handleClick={this.HazClic}
           />
-        <button onClick={this.HazClic}>clic</button>
+        <button onClick={this.HazClic}>clic boton directo</button>
       </div>
 
     );
