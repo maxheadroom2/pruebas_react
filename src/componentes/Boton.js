@@ -4,7 +4,7 @@ import React from 'react';
 const Boton = (props) => {
   return (
     <div>
-      <h1>Soy el boton de que realizara un listado</h1>
+      <h1></h1>
       <div>
       <button type="button"
         onClick={props.handleClick}>

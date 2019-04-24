@@ -3,6 +3,7 @@ import Header from './header.js';
 
 const Body = (props) => {
   let {handleClick} = props
+
   return(
     <div>
       <Header handleClick={handleClick} />
